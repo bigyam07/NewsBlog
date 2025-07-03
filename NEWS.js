@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
 });
 
 async function fetchNews(query) {
-    const response = await fetch(`${url}${query}&apikey=${API_KEY}`)
+    const response = await fetch(`${url}${query}&apiKey=${API_KEY}`)
     const data = await response.json();
     console.log(data);
     bindData(data.articles);
