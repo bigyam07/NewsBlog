@@ -1,0 +1,1 @@
+Simple News Blog page using Javscript Fetch API and some HTML and CSS 
